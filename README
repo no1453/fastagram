@@ -1,0 +1,17 @@
+anagram 1.0- by M.Hoskins "Hashish Innocently Amok" (no1453@gmail.com)
+last revision 2013/12/29
+ 
+INSTALLATION-
+	copy "anagramwords" to the directory /usr/dict (create directory if it doesn't exist.)
+	copy "anagram" to /usr/local/bin (or wherever you want)
+	optional- compile your own copy with "g++ anagram.cpp -o anagram" and use it.
+
+USE-
+	anagram [string to be anagrammed] [words to require] [number to output]
+Arguments one and two must be a string of letters, with no spaces.  Arguments two and three are optional.  If you wish to specify the number to output, but with no required words, use "-" as the second argument.
+
+	If you wish to use your own list of words, the format of the anagramwords file is: a text file, one word per line, no symbols or spaces.
+
+Enjoy,
+M. Hoskins
+
